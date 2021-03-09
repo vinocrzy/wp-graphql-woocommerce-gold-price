@@ -111,7 +111,6 @@ function gold_price()
         # the function should return enough info for the outputFields to resolve with
         'mutateAndGetPayload' => function ($input, $context, $info) {
             // Do any logic here to sanitize the input, check user capabilities, etc
-            // $Output = null;
 
             $Output = $input;
 
